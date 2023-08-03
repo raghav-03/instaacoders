@@ -1,14 +1,8 @@
-# Talk-A-Tive
-
 UI Clone
 
 ## Tech Stack
 
 **Client:** React JS
-
-## Demo
-
-![](https://github.com/raghav-03/Chat-App/blob/master/screenshots/MainScreen.jpeg)
 
 ## Run Locally
 
