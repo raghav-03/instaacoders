@@ -1,0 +1,10 @@
+/* Remove the default blue outline on focus */
+.form-checkbox:focus {
+  outline: none;
+}
+
+/* Change the default blue color when checked */
+.form-checkbox:checked {
+  background-color: #7eaa92;
+  border-color: #7eaa92;
+}
