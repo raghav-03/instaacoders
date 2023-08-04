@@ -3,7 +3,7 @@ UI Clone
 ## Tech Stack
 
 **Client:** React JS
-**\*Sever:** Node Js
+**Sever:** Node Js
 
 ## Run Locally
 
@@ -21,7 +21,7 @@ Go to the project directory
 
 ## FrontEnd
 
-Hosted Link -
+Hosted Link - https://instaacoders.vercel.app/
 
 Install dependencies
 
@@ -58,7 +58,7 @@ Start the server
   npm run start
 ```
 
-Goto http://localhost:3601/api?number=31 and enter the number
+Goto http://localhost:3601/api?number= and enter the number after = sign in url
 
 # ScreenShot
 
