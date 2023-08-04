@@ -3,6 +3,7 @@ UI Clone
 ## Tech Stack
 
 **Client:** React JS
+**\*Sever:** Node Js
 
 ## Run Locally
 
@@ -17,6 +18,10 @@ Go to the project directory
 ```bash
   cd INSTACODERS
 ```
+
+## FrontEnd
+
+Hosted Link -
 
 Install dependencies
 
@@ -37,6 +42,30 @@ Start the server
 ![](https://github.com/raghav-03/instaacoders/blob/master/screenshots/Search.jpeg)
 ![](https://github.com/raghav-03/instaacoders/blob/master/screenshots/Sort.jpeg)
 ![](https://github.com/raghav-03/instaacoders/blob/master/screenshots/Detailed.jpeg)
+
+## Backend
+
+Install dependencies
+
+```bash
+  cd backend/
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+
+Goto http://localhost:3601/api?number=31 and enter the number
+
+# ScreenShot
+
+![](https://github.com/raghav-03/instaacoders/blob/master/screenshots/71.jpeg)
+![](https://github.com/raghav-03/instaacoders/blob/master/screenshots/L.jpeg)
+![](https://github.com/raghav-03/instaacoders/blob/master/screenshots/R.jpeg)
+![](https://github.com/raghav-03/instaacoders/blob/master/screenshots/LR.jpeg)
 
 ## Made By
 
