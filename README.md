@@ -34,6 +34,9 @@ Start the server
 # ScreenShot
 
 ![](https://github.com/raghav-03/instaacoders/blob/master/screenshots/HomePage.jpeg)
+![](https://github.com/raghav-03/instaacoders/blob/master/screenshots/Search.jpeg)
+![](https://github.com/raghav-03/instaacoders/blob/master/screenshots/Sort.jpeg)
+![](https://github.com/raghav-03/instaacoders/blob/master/screenshots/Detailed.jpeg)
 
 ## Made By
 

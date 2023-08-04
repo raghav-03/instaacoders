@@ -1,5 +1,4 @@
 import React from "react";
-import "./Left.css";
 import Dropdown from "./Dropdown";
 const Left = () => {
   return (
@@ -13,7 +12,14 @@ const Left = () => {
         <p className=" text-xl mt-3">Categories</p>
         <div className="space-y-4 pt-5">
           <label className="flex items-center space-x-3">
-            <input type="checkbox" className="form-checkbox h-5 w-5" />
+            <input
+              type="checkbox"
+              className="form-checkbox h-5 w-5 text-green-600 checked:bg-green-500 rounded focus:ring focus:ring-green-300"
+            />
+            {/* <input
+              type="checkbox"
+              className="form-checkbox h-5 w-5 text-green-600"
+            /> */}
             <span className="text-gray-800">Gardening</span>
           </label>
           <label className="flex items-center space-x-3">
@@ -51,7 +57,7 @@ const Left = () => {
             placeholder="Max"
           />
         </div>
-        <button className="bg-green-500 text-white mt-4 px-4 py-2 focus:outline-none rounded-lg w-full">
+        <button className="bg-customGreen text-white mt-4 px-4 py-2 focus:outline-none rounded-lg w-full">
           Set Price
         </button>
       </div>
@@ -66,7 +72,10 @@ const Left = () => {
               id="fourStars"
               className="form-checkbox h-5 w-5"
             />
-            <label for="fourStars" className="flex items-center cursor-pointer">
+            <label
+              htmlFor="fourStars"
+              className="flex items-center cursor-pointer"
+            >
               <span className="stars-icon text-2xl text-yellow-400">
                 ★ ★ ★ ★
               </span>
@@ -81,7 +90,7 @@ const Left = () => {
               className="form-checkbox h-5 w-5"
             />
             <label
-              for="threeStars"
+              htmlFor="threeStars"
               className="flex items-center cursor-pointer"
             >
               <span className="stars-icon text-2xl text-yellow-400">
@@ -100,7 +109,10 @@ const Left = () => {
               id="twoStars"
               className="form-checkbox h-5 w-5"
             />
-            <label for="twoStars" className="flex items-center cursor-pointer">
+            <label
+              htmlFor="twoStars"
+              className="flex items-center cursor-pointer"
+            >
               <span className="stars-icon text-2xl text-yellow-400">★ ★ </span>
               <span className="stars-icon text-2xl text-gray-400 ml-1">
                 ★ ★ ★
@@ -114,7 +126,10 @@ const Left = () => {
               id="oneStars"
               className="form-checkbox h-5 w-5"
             />
-            <label for="oneStars" className="flex items-center cursor-pointer">
+            <label
+              htmlFor="oneStars"
+              className="flex items-center cursor-pointer"
+            >
               <span className="stars-icon text-2xl text-yellow-400">★ </span>
               <span className="stars-icon text-2xl text-gray-400 ml-1">
                 ★ ★ ★ ★

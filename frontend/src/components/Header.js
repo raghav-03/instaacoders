@@ -14,16 +14,16 @@ const Header = () => {
         </p>
       </div>
       <div className="flex w-3/5">
-        <a class="nav-link nav-link-ltr" href="#">
+        <a className="nav-link nav-link-ltr" href="#">
           Shop
         </a>
-        <a class="nav-link nav-link-ltr" href="#">
+        <a className="nav-link nav-link-ltr" href="#">
           Plant Care
         </a>
-        <a class="nav-link nav-link-ltr" href="#">
+        <a className="nav-link nav-link-ltr" href="#">
           Workshops
         </a>
-        <a class="nav-link nav-link-ltr" href="#">
+        <a className="nav-link nav-link-ltr" href="#">
           Blogs
         </a>
       </div>
